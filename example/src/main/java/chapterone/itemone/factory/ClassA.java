@@ -2,19 +2,8 @@ package chapterone.itemone.factory;
 
 public class ClassA {
 	public Person createPerson(String type) {
-		Person returnPerson = null;
-
-		switch (type) {
-			case "A":
-				returnPerson = new PersonA();
-				break;
-			case "B":
-				returnPerson = new PersonB();
-				break;
-			case "C":
-				returnPerson = new PersonC();
-				break;
-		}
+		PersonFactory factory = new PersonFactory();
+		Person returnPerson = factory.createPerson(type);
 		return returnPerson;
 	}
 }
