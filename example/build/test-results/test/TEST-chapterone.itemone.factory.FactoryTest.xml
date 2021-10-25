@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="chapterone.itemone.factory.FactoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-10-25T14:58:10" hostname="DESKTOP-00KPKNS" time="0.077">
+  <properties/>
+  <testcase name="[1] A" classname="chapterone.itemone.factory.FactoryTest" time="0.07"/>
+  <testcase name="[2] B" classname="chapterone.itemone.factory.FactoryTest" time="0.002"/>
+  <system-out><![CDATA[Person A created.
+Person B created.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

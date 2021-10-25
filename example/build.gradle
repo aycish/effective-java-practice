@@ -1,0 +1,49 @@
+plugins {
+    id 'java'
+    id 'org.ec4j.editorconfig' version '0.0.3'
+    id 'checkstyle'
+}
+
+editorconfig {
+    excludes = ['public', 'build']
+}
+
+checkstyle {
+    maxWarnings = 0
+    configFile = file("${rootDir}/naver-checkstyle-rules.xml")
+    configProperties = ["suppressionFile" : "${rootDir}/naver-checkstyle-suppressions.xml"]
+    toolVersion ="8.24"
+}
+
+check.dependsOn editorconfigCheck
+
+group 'effective.example.study'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.assertj:assertj-core:3.19.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.1'
+    testImplementation 'org.mockito:mockito-inline:3.6.0'
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        afterSuite { desc, result ->
+            if (!desc.parent) {
+                def output = "Results: ${result.resultType} (${result.testCount} tests, ${result.successfulTestCount} passed, ${result.failedTestCount} failed, ${result.skippedTestCount} skipped)"
+                def startItem = '|  ', endItem = '  |'
+                def repeatLength = startItem.length() + output.length() + endItem.length()
+                println('\n' + ('-' * repeatLength) + '\n' + startItem + output + endItem + '\n' + ('-' * repeatLength))
+            }
+        }
+    }
+}
