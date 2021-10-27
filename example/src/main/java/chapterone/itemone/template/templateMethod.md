@@ -1,4 +1,4 @@
-### [참고 링크](https://lee1535.tistory.com/106)
+### [참고 링크](https://victorydntmd.tistory.com/298?category=719467)
 
 ---
 
