@@ -1,8 +1,26 @@
-Person A created.
-Person A created.
-Person B created.
-Person B created.
-Person C created.
-Person C created.
-Person A created.
-Person A created.
+Trial = 4
+[A]created with 1
+[A]  radius : 1
+[B]created with 1
+[B]  radius : 1
+[C]created with 1
+[C]  radius : 1
+[D]created with 1
+[D]  radius : 1
+[A]  radius : 1
+[B]  radius : 1
+[C]  radius : 1
+[D]  radius : 1
+[A]  radius : 1
+[B]  radius : 1
+Trial = 3
+[A]  radius : 1
+[B]  radius : 1
+[C]  radius : 1
+[A]  radius : 1
+[B]  radius : 1
+[C]  radius : 1
+[A]  radius : 1
+[B]  radius : 1
+[C]  radius : 1
+[A]  radius : 1

@@ -2,3 +2,5 @@ util/test/TestSetup.java
  util.test.TestSetup
 chapterone/itemone/factory/FactoryTest.java
  chapterone.itemone.factory.FactoryTest
+chapterone/itemone/flyweight/FlyTest.java
+ chapterone.itemone.flyweight.FlyTest
