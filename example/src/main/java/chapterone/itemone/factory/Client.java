@@ -3,7 +3,7 @@ package chapterone.itemone.factory;
 import util.Console;
 
 public class Client {
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		int trial = 0;
 
 		ClassA classA = new ClassA();
