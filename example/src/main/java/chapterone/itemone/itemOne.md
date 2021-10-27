@@ -1,8 +1,8 @@
 ### 찾아봤던 내용들
 
-1. [팩토리 메서드 패턴]() - 본문에서 사용되는 팩터리 메서드와 유사하지만, 동일한 것은 아님
-2. [템플릿 메서드 패턴]()
-3. [플라이 웨이트]()
+1. [팩토리 메서드 패턴](https://github.com/aycish/effective-java-practice/blob/Chapter1/example/src/main/java/chapterone/itemone/factory/factoryMethod.md) - 본문에서 사용되는 팩터리 메서드와 유사하지만, 동일한 것은 아님
+2. [템플릿 메서드 패턴](https://github.com/aycish/effective-java-practice/blob/Chapter1/example/src/main/java/chapterone/itemone/template/templateMethod.md)
+3. [플라이 웨이트](https://github.com/aycish/effective-java-practice/blob/Chapter1/example/src/main/java/chapterone/itemone/flyweight/flyWeight.md)
 
 ---
 
