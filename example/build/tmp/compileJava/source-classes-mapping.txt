@@ -1,0 +1,34 @@
+chapterone/itemone/factory/PersonC.java
+ chapterone.itemone.factory.PersonC
+util/Console.java
+ util.Console
+chapterone/itemone/factory/PersonB.java
+ chapterone.itemone.factory.PersonB
+chapterone/itemone/factory/Person.java
+ chapterone.itemone.factory.Person
+chapterone/itemone/factory/PersonA.java
+ chapterone.itemone.factory.PersonA
+chapterone/itemone/factory/ClassA.java
+ chapterone.itemone.factory.ClassA
+chapterone/itemone/factory/PersonFactory.java
+ chapterone.itemone.factory.PersonFactory
+chapterone/itemone/factory/ClassB.java
+ chapterone.itemone.factory.ClassB
+chapterone/itemone/template/ChildB.java
+ chapterone.itemone.template.ChildB
+chapterone/itemone/template/Parent.java
+ chapterone.itemone.template.Parent
+chapterone/itemone/template/Client.java
+ chapterone.itemone.template.Client
+chapterone/itemone/template/ChildA.java
+ chapterone.itemone.template.ChildA
+chapterone/itemone/factory/Client.java
+ chapterone.itemone.factory.Client
+chapterone/itemone/flyweight/Shape.java
+ chapterone.itemone.flyweight.Shape
+chapterone/itemone/flyweight/Circle.java
+ chapterone.itemone.flyweight.Circle
+chapterone/itemone/flyweight/ShapeFactory.java
+ chapterone.itemone.flyweight.ShapeFactory
+chapterone/itemone/flyweight/Client.java
+ chapterone.itemone.flyweight.Client

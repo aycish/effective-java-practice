@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="chapterone.itemone.flyweight.FlyTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-10-27T13:47:12" hostname="DESKTOP-00KPKNS" time="0.074">
+  <properties/>
+  <testcase name="[1] 4,A,B,C,D" classname="chapterone.itemone.flyweight.FlyTest" time="0.068"/>
+  <testcase name="[2] 3,A,B,C" classname="chapterone.itemone.flyweight.FlyTest" time="0.002"/>
+  <system-out><![CDATA[Trial = 4
+[A]created with 1
+[A]  radius : 1
+[B]created with 1
+[B]  radius : 1
+[C]created with 1
+[C]  radius : 1
+[D]created with 1
+[D]  radius : 1
+[A]  radius : 1
+[B]  radius : 1
+[C]  radius : 1
+[D]  radius : 1
+[A]  radius : 1
+[B]  radius : 1
+Trial = 3
+[A]  radius : 1
+[B]  radius : 1
+[C]  radius : 1
+[A]  radius : 1
+[B]  radius : 1
+[C]  radius : 1
+[A]  radius : 1
+[B]  radius : 1
+[C]  radius : 1
+[A]  radius : 1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
