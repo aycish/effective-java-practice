@@ -16,3 +16,11 @@ chapterone/itemone/factory/ClassB.java
  chapterone.itemone.factory.ClassB
 chapterone/itemone/factory/Client.java
  chapterone.itemone.factory.Client
+chapterone/itemone/template/Parent.java
+ chapterone.itemone.template.Parent
+chapterone/itemone/template/Client.java
+ chapterone.itemone.template.Client
+chapterone/itemone/template/ChildA.java
+ chapterone.itemone.template.ChildA
+chapterone/itemone/template/ChildB.java
+ chapterone.itemone.template.ChildB
